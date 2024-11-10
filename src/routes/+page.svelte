@@ -19,21 +19,17 @@
 	function updateCountdown() {
 		const now = new Date();
 
-		// Get the target date, either from the URL or the default
 		const targetDateUTC = getCustomTargetTime();
 
-		// Apply the timezone offset
 		const offset = getTimezoneOffset();
 		const targetDate = new Date(targetDateUTC.getTime() + offset * 60 * 60 * 1000);
 
 		const diff = targetDate - now;
 
 		if (diff <= 0) {
-			// If countdown has reached or passed target, show "Happy New Year!" message
 			isCountdownComplete = true;
 			days = hours = minutes = seconds = 0;
 		} else {
-			// Otherwise, calculate time remaining
 			isCountdownComplete = false;
 			days = Math.floor(diff / (1000 * 60 * 60 * 24));
 			hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
