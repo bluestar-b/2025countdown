@@ -1,7 +1,7 @@
 <script>
 	import '../app.css';
-	export const prerender = true;
 	let { children } = $props();
+	console.log("visit us: https://notmycode.dev")
 </script>
 
 {@render children()}
