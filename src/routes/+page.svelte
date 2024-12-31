@@ -33,6 +33,45 @@
 	});
 </script>
 
+<div class="snowflakes" aria-hidden="true">
+	<div class="snowflake">
+		<div class="inner">❅</div>
+	</div>
+	<div class="snowflake">
+		<div class="inner">❅</div>
+	</div>
+	<div class="snowflake">
+		<div class="inner">❅</div>
+	</div>
+	<div class="snowflake">
+		<div class="inner">❅</div>
+	</div>
+	<div class="snowflake">
+		<div class="inner">❅</div>
+	</div>
+	<div class="snowflake">
+		<div class="inner">❅</div>
+	</div>
+	<div class="snowflake">
+		<div class="inner">❅</div>
+	</div>
+	<div class="snowflake">
+		<div class="inner">❅</div>
+	</div>
+	<div class="snowflake">
+		<div class="inner">❅</div>
+	</div>
+	<div class="snowflake">
+		<div class="inner">❅</div>
+	</div>
+	<div class="snowflake">
+		<div class="inner">❅</div>
+	</div>
+	<div class="snowflake">
+		<div class="inner">❅</div>
+	</div>
+</div>
+
 <div class="mx-auto w-full max-w-md p-6 text-white">
 	<div class="mb-6">
 		<h2 class="mb-2 text-center text-2xl font-bold text-gray-100">
@@ -44,19 +83,19 @@
 	</div>
 	<div class="mb-6 grid grid-cols-4 gap-4 text-center">
 		<div class="flex flex-col items-center rounded-lg bg-gray-900 p-4">
-			<span class="text-4xl md:text-5xl font-bold text-gray-100">{days}</span>
+			<span class="text-4xl font-bold text-gray-100 md:text-5xl">{days}</span>
 			<span class="text-sm text-gray-400">DAYS</span>
 		</div>
 		<div class="flex flex-col items-center rounded-lg bg-gray-900 p-4">
-			<span class="text-4xl md:text-5xl font-bold text-gray-100">{hours}</span>
+			<span class="text-4xl font-bold text-gray-100 md:text-5xl">{hours}</span>
 			<span class="text-sm text-gray-400">HOURS</span>
 		</div>
 		<div class="flex flex-col items-center rounded-lg bg-gray-900 p-4">
-			<span class="text-4xl md:text-5xl font-bold text-gray-100">{minutes}</span>
+			<span class="text-4xl font-bold text-gray-100 md:text-5xl">{minutes}</span>
 			<span class="text-sm text-gray-400">MINUTES</span>
 		</div>
 		<div class="flex flex-col items-center rounded-lg bg-gray-900 p-4">
-			<span class="text-4xl md:text-5xl font-bold text-gray-100">{seconds}</span>
+			<span class="text-4xl font-bold text-gray-100 md:text-5xl">{seconds}</span>
 			<span class="text-sm text-gray-400">SECONDS</span>
 		</div>
 	</div>

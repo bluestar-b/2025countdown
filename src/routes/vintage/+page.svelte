@@ -88,4 +88,3 @@
 		{isCountdownComplete ? 'HAPPY NEW YEAR!!! 🎉🎉🎉' : 'GET READY FOR 2025!!!!!!!!!'}
 	</marquee>
 </div>
-
